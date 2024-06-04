@@ -2,7 +2,7 @@ import subprocess
 import time
 import os
 
-os.system('pip install selenium stealth')
+os.system('pip install selenium stealth requests stem')
 
 def open_new_tab(tab_index):
     cmd = f'start cmd /k "python run.py & exit"'
